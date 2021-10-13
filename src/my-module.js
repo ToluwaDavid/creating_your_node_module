@@ -1,0 +1,1 @@
+exports.myText = "Hello this is my text";
