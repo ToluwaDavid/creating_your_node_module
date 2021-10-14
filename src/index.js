@@ -1,10 +1,13 @@
 var http = require("http");
 // const { render } = require('ejs');
+
 var myModule = require('./my-module.js');
 
 // render(myModule.myText)
 
 //create a server object:
+
+//This teaches how to craete your own node modules
 http.createServer((req, res) => {
       res.write(myModule.myText); //write a response to the client
       res.end(); //end the response
